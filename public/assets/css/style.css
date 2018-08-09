@@ -1,0 +1,425 @@
+/* Compiled Less CSS File */
+/* Generated from "style.css" */
+
+@font-face {
+  font-family: proximabold;
+  src: url('../fonts/proximabold.ttf');
+}
+@font-face {
+  font-family: proximareg;
+  src: url('../fonts/proximareg.ttf');
+}
+body {
+  font-family: proximareg;
+  min-width: 1015px !important;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: none !important;
+  width: 1000px !important;
+}
+.header {
+  background-color: #003366;
+  height: 100px;
+}
+.header a {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+.header ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.header ul li {
+  float: left;
+  display: inline-block;
+}
+.header ul li a {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+}
+.header ul li a:hover {
+  background-color: #3399cc;
+  color: #003366;
+  text-decoration: none;
+}
+.header ul li span {
+  display: inline-block;
+  padding-top: 6px;
+  height: 35px;
+}
+.wrp-login h2 {
+  margin: 40px 0 0 0;
+  font-family: proximabold;
+  font-size: 40px;
+  color: #3399cc;
+  text-align: center;
+}
+.wrp-login h3 {
+  margin: 0;
+  font-family: proximabold;
+  font-size: 50px;
+  color: #003366;
+  text-align: center;
+}
+.wrp-login .form-login {
+  margin: 40px 0;
+  padding: 30px;
+  border: 2px solid #0ddfff;
+  background-color: #eff3f8;
+}
+.wrp-login .form-horizontal {
+  margin-bottom: 0;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.form-control {
+  border-radius: 0;
+}
+.btn-first {
+  border-radius: 0;
+  background-color: #003366;
+  color: #fff;
+}
+.btn-first:hover,
+.btn-first:focus {
+  color: #fff;
+}
+.btn-second {
+  border-radius: 0;
+  background-color: #3399cc;
+  color: #fff;
+}
+.btn-second:hover,
+.btn-second:focus {
+  color: #fff;
+}
+.list-open {
+  margin: 0;
+  padding: 0;
+}
+.list-open li {
+  display: inline-block;
+}
+.list-open li a {
+  display: block;
+  border: 2px solid #0ddfff;
+  background-color: #eff3f8;
+  width: 300px;
+  height: 340px;
+  font-family: proximabold;
+  font-size: 20px;
+  color: #003366;
+  text-align: center;
+}
+.list-open li a:hover {
+  background-color: #003366;
+  color: #fff;
+  text-decoration: none;
+}
+.list-open li a:hover .icon-open {
+  background-image: url(../images/icon-open-ticket-hover.png);
+}
+.list-open li a:hover .icon-check {
+  background-image: url(../images/icon-check-ticket-hover.png);
+}
+.list-open li:last-child {
+  float: right;
+}
+.icon-open {
+  margin: 70px auto 10px auto;
+  background-image: url(../images/icon-open-ticket.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+.icon-check {
+  margin: 70px auto 10px auto;
+  background-image: url(../images/icon-check-ticket.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+.box {
+  padding: 20px;
+  border: 2px solid #0ddfff;
+  background-color: #eff3f8;
+}
+.box h2 {
+  margin: 0;
+  font-family: proximabold;
+  font-size: 24px;
+  color: #003366;
+}
+.box .form-group {
+  margin-top: 20px;
+}
+.box .form-group span {
+  color: red;
+}
+.box .breadcrumb {
+  padding: 0;
+  background-color: transparent;
+}
+.dl-mg dt {
+  width: 100px;
+  text-align: left;
+}
+.dl-mg dd {
+  margin-left: 100px;
+}
+.dl-mg h2 {
+  margin: 0;
+  font-family: proximabold;
+  font-size: 40px;
+  color: #003366;
+}
+.dl-mg h3 {
+  margin: 0;
+  font-family: proximabold;
+  font-size: 26px;
+  color: #3399cc;
+}
+.dl-mg-ticket dt {
+  width: 100px;
+  text-align: left;
+}
+.dl-mg-ticket dd {
+  margin-left: 100px;
+}
+.dl-mg-ticket h2 {
+  margin: 10px 0 0 0;
+  font-family: proximabold;
+  font-size: 40px;
+  color: #003366;
+}
+.table-name {
+  margin: 20px 0 10px 0;
+}
+.table-name tr td {
+  font-size: 20px;
+  color: #003366;
+}
+.tab-ticket-status .nav-tabs {
+  background-color: #003366;
+}
+.tab-ticket-status .nav-tabs > li > a {
+  display: block;
+  color: #fff;
+  border: none;
+  font-family: proximabold;
+}
+.tab-ticket-status .nav-tabs > li > a:hover {
+  background-color: transparent;
+  border: none;
+}
+.tab-ticket-status .nav-tabs > li.active > a,
+.tab-ticket-status .nav-tabs > li.active > a:focus,
+.tab-ticket-status .nav-tabs > li.active > a:hover {
+  background-color: transparent;
+  border: none;
+  color: #3399cc;
+}
+.tab-ticket-status .tab-content {
+  margin: 20px 0 0 0;
+}
+.tab-ticket-status .tab-content table {
+  background-color: #fff;
+}
+.tab-ticket-status .text {
+  float: left;
+  display: inline-block;
+  margin-right: 5px;
+  padding-top: 5px;
+  height: 28px;
+}
+.tab-ticket-status .text-value {
+  float: left;
+  display: inline-block;
+  padding-top: 1px;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  font-family: proximareg;
+  text-align: center;
+  color: #fff;
+  border-radius: 90px;
+}
+.icon-mail-open,
+.icon-mail-answered,
+.icon-mail-overdue,
+.icon-mail-closed,
+.icon-mail-create {
+  float: left;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  background-image: url(../images/icon-mail.png);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+.icon-mail-answered {
+  background-position: -28px 0;
+}
+.icon-mail-overdue {
+  background-position: -56px 0;
+}
+.icon-mail-closed {
+  background-position: -84px 0;
+}
+.icon-mail-create {
+  background-position: -112px 0;
+}
+.wrp-search {
+  margin: 10px 0;
+}
+.table-ticket tr:hover {
+  background-color: #e3efff;
+}
+.table-ticket tr td {
+  font-size: 14px;
+}
+.table-ticket tr td span {
+  display: block;
+  font-size: 12px;
+}
+.table-ticket tr td ul {
+  margin: 0;
+  padding: 0;
+}
+.table-ticket tr td ul li {
+  display: inline-block;
+}
+.table-ticket tr .emergency {
+  background-color: #ff4a4a;
+  color: #fff;
+}
+.table-ticket tr .high {
+  background-color: #ffaaaa;
+}
+table.dataTable {
+  margin-bottom: 20px!important;
+}
+.ticket-status h2 {
+  font-family: proximabold;
+  font-size: 24px;
+  color: #3399cc;
+}
+.ticket-status .box-detail {
+  padding: 15px;
+  background-color: #003366;
+}
+.list-menu-detail {
+  float: right;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.list-menu-detail li {
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+.table-detail-ticket tr td {
+  padding: 5px 5px 5px 0;
+  color: #fff;
+  font-size: 14px;
+}
+.ticket-thread h2 {
+  font-size: 24px;
+  color: #3399cc;
+}
+.ticket-thread h2 span {
+  display: block;
+  font-size: 14px;
+  color: #003366;
+}
+.wrp-box-thread1 {
+  margin: 0 0 15px 0;
+  border: 1px solid #ddd;
+}
+.wrp-box-thread1 .box-header {
+  padding: 15px;
+  background-color: #e3efff;
+  font-family: proximabold;
+  color: #003366;
+}
+.wrp-box-thread1 .box-header .author {
+  float: right;
+  font-family: proximabold;
+  color: #3399cc;
+}
+.wrp-box-thread1 .box-content {
+  padding: 15px;
+  background-color: #fff;
+}
+.wrp-box-thread1 .box-footer {
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+.wrp-box-thread1 .box-footer span {
+  color: #003366;
+}
+.wrp-box-thread2 {
+  margin: 0 0 15px 0;
+  border: 1px solid #ddd;
+}
+.wrp-box-thread2 .box-header {
+  padding: 15px;
+  background-color: #e0e0e0;
+  font-family: proximabold;
+  color: #003366;
+}
+.wrp-box-thread2 .box-header .author {
+  float: right;
+  font-family: proximabold;
+  color: #3399cc;
+}
+.wrp-box-thread2 .box-content {
+  padding: 15px;
+}
+.wrp-box-thread2 .box-footer {
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+.wrp-box-thread2 .box-footer span {
+  color: #003366;
+}
+.tap-post .nav-tabs > li > a {
+  background-color: #e0e0e0;
+  color: #303030;
+  border-radius: 0;
+}
+.tap-post .nav-tabs > li.active > a,
+.tap-post .nav-tabs > li.active > a:focus,
+.tap-post .nav-tabs > li.active > a:hover {
+  background-color: #3399cc;
+  color: #fff;
+  border-radius: 0;
+}
+.tap-post .tab-content {
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.tap-post .tab-content label {
+  text-align: left;
+}
+.copyright {
+  margin-top: 100px;
+  text-align: center;
+}
